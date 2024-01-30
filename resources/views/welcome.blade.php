@@ -10,6 +10,14 @@
 </head>
 
 <body>
+    <h1 class="text-center my-3">Treni in partenza nel giorno 2024-01-30</h1>
+    <ul>
+        @foreach ($trains as $train)
+            <li class="text-center">
+               data di partenza :  {{ $train['data_di_partenza'] }}
+            </li>
+        @endforeach
+    </ul>
 </body>
 
 </html>

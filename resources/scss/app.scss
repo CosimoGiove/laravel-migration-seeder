@@ -1,10 +1,20 @@
 @import "~bootstrap/scss/bootstrap";
 @import "_partials/reset.scss";
 
-body {
-    //background-image: url("../img/duck.jpg");
+ul li{
+   list-style: none;
+}
+ul{
+    border: 2px solid black;
+    width: 30% ;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: lightblue;
+}
 
-    h1 {
-        color: blue;
-    }
+h1{
+    color: red;
+}
+body{
+    background-color: lightcyan;
 }
