@@ -34,22 +34,22 @@
                     {{ $train['orario_di_partenza'] }}
                 </div>
             </li>
-            <li>orrio di arrivo
+            <li>orario di arrivo:
                 <div>
                     {{ $train['orario_di_arrivo'] }}
                 </div>
             </li>
-            <li>codice treno
+            <li>codice treno:
                 <div>
                     {{ $train['codice_treno'] }}
                 </div>
             </li>
-            <li>numero carrozze
+            <li>numero carrozze:
                 <div>
                     {{ $train['Numero_carrozze'] }}
                 </div>
             </li>
-            <li>data di partenza
+            <li>data di partenza:
                 <div>
                     {{ $train['data_di_partenza'] }}
                 </div>
